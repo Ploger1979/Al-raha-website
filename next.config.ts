@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  
+  reactStrictMode: true, // ✅ وضع تطويري مفيد
 };
 
 export default nextConfig;

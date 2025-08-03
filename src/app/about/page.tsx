@@ -38,6 +38,7 @@ export default function AboutPage() {
             {/* ✅ Header */}
             <section className="min-h-[40vh] bg-gradient-to-tr from-[#3b1f99] via-[#602bb7] to-[#9e4ff1] py-10 text-white flex items-center justify-center text-center">
                 <div className="container mx-auto px-4">
+                    <br />
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -51,6 +52,7 @@ export default function AboutPage() {
                         transition={{ delay: 0.2 }}
                         className="text-2xl leading-relaxed"
                     >
+                        <br />
                         قصة نجاح امتدت لأكثر من ربع قرن في خدمة راحتكم في كل ربوع ليبيا
                     </motion.p>
                 </div>

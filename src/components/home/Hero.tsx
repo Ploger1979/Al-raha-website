@@ -25,7 +25,7 @@ export default function Hero() {
             {/* ✅ الحاوية الرئيسية للمحتوى */}
             <div className="container mx-auto px-4 relative z-20">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-
+                    <br /> <br />
                     {/* ✅ العمود الأول: النصوص والعنوان والأزرار */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }} // يبدأ من اليسار وشفاف
@@ -33,6 +33,7 @@ export default function Hero() {
                         transition={{ duration: 0.8 }}
                         className="flex justify-center items-center"
                     >
+                        <br /><br /><br /><br /><br />
                         <div className="flex flex-col items-center text-center space-y-6">
 
                             {/* ✅ العنوان الرئيسي */}
