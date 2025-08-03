@@ -42,7 +42,7 @@ export default function AboutPage() {
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-5xl font-bold mb-4"
+                        className="text-4xl md:text-5xl  font-bold mb-4"
                     >
                         من نحن
                     </motion.h1>
@@ -50,7 +50,7 @@ export default function AboutPage() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.2 }}
-                        className="text-2xl leading-relaxed"
+                        className="text-xl leading-relaxed"
                     >
                         <br />
                         قصة نجاح امتدت لأكثر من ربع قرن في خدمة راحتكم في كل ربوع ليبيا

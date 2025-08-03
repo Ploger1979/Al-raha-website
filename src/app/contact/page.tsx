@@ -52,7 +52,7 @@ export default function ContactPage() {
                 <div className="relative z-20 pt-20">
                     <br /><br /><br /><br />
                     <section className="flex items-center justify-center py-10 px-2">
-                        <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-5xl font-bold mb-6">تواصل معنا</motion.h1>
+                        <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-4xl md:text-5xl  font-bold mb-6">تواصل معنا</motion.h1>
                     </section>
                     <br />
                     <section className="flex items-center justify-center py-10 px-2">

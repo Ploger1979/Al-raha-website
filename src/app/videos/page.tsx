@@ -22,7 +22,7 @@ export default function VideosPage() {
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-4xl md:text-5xl font-bold mb-4"
+                        className="text-4xl md:text-5xl  font-bold mb-4"
                     >
                         معرض الفيديوهات
                     </motion.h1>

@@ -18,6 +18,7 @@ export default function Logo({ scrolled }: LogoProps) {
                     alt="شعار الراحة"
                     fill
                     sizes="(max-width: 768px) 120px, (max-width: 1200px) 160px, 200px"
+                    priority // ✅ تحميل الصورة بأولوية لتحسين الأداء
                 />
             </div>
 
