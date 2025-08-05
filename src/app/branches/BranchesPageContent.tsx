@@ -86,6 +86,18 @@ const BranchesPage = () => {
                     image: "/Branche/al-raha-raha.jpg",
                 }
             ]
+        },
+        {
+            city: "صبراته",
+            branches: [
+                {
+                    id: 7,
+                    name: "فرع صبراته ",
+                    address: "الطريق الساحلي مدخل صبراته الشرقى ،عماره البكوش شارع",
+                    phone: "0929212223 /0945716844",
+                    image: "/Branche/al-raha-raha.jpg",
+                }
+            ]
         }
     ];
 
@@ -191,7 +203,7 @@ const BranchesPage = () => {
 
                                                     <div className="flex items-start space-x-3 space-x-reverse">
                                                         <Clock className="w-5 h-5 text-yellow-300 mt-1 flex-shrink-0" />
-                                                        <span className="text-white-700">السبت - الخميس: 9ص - 4م</span>
+                                                        <span className="text-white-700">السبت - الخميس: 9ص - 10م</span>
                                                     </div>
                                                     <br />
                                                     <div className="flex gap-2 pt-4">
